@@ -98,8 +98,8 @@ if os.path.exists(dossier):
     # Récupération de la liste des fichiers .json
     fichiers = [f for f in os.listdir(dossier) if f.endswith('.json') and not f.startswith('.')]
     
-    # --- TEST SUR LES 100 PREMIERS FICHIERS UNIQUEMENT ---
-    nb_test = 100
+    # --- LOAD DES 2285 FICHIERS ---
+    nb_test = 2285
     fichiers_test = fichiers[:nb_test]
 
     def natural_keys(text):
